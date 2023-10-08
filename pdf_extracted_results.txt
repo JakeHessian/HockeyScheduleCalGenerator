@@ -1,0 +1,302 @@
+Some python libraries are better than other's at extracting text from a pdf. Various outputs below
+# - [pdfminer](https://github.com/euske/pdfminer) is the best option
+Page
+
+driver = webdriver.Chrome(options=options)
+
+1 of 2
+League Schedule By
+Sep 22, 2023
+2:51 PM
+League Schedule Name: Mon/Wed Hockey - Fall 2023 D Div Pre
+Game Date
+Day
+Time
+Game Site
+Home Team
+Away Team
+League Name
+Sep 25,
+2023
+Mon
+10:00 PM RIM - Ice (3) Lions Rink
+#7-Team Ramrod
+vs.
+#11-Indy #3
+10:30 PM AMCC - Ice West
+#4-Floopy Pucks
+vs.
+#8-Honey Nut Chelios
+11:00 PM RIM - Ice (1) Piller's Ice
+#1-Llamas with Hats
+vs.
+#6-Lucidaco Lightning
+Haus Rink
+11:00 PM RIM - Ice (3) Lions Rink
+#12-Indy #4
+Sep 27,
+2023
+Wed
+9:30 PM RIM - Ice (2) Optimist's
+#3-Unit 91
+Rink
+vs.
+vs.
+#5-Hawks
+#9-Tuff Pucks
+10:00 PM RIM - Ice (3) Lions Rink
+#2-CnC Sports Cards
+vs.
+#14-KW Hockey Club
+10:30 PM RIM - Ice (2) Optimist's
+#13-Cambridge Canadians vs.
+#10-Arctic Wolf HC
+Rink
+Oct 2, 2023
+Mon
+10:00 PM RIM - Ice (3) Lions Rink
+#1-Llamas with Hats
+vs.
+#4-Floopy Pucks
+10:30 PM AMCC - Ice West
+#14-KW Hockey Club
+vs.
+#6-Lucidaco Lightning
+11:00 PM RIM - Ice (1) Piller's Ice
+#8-Honey Nut Chelios
+vs.
+#12-Indy #4
+Haus Rink
+11:00 PM RIM - Ice (3) Lions Rink
+#9-Tuff Pucks
+vs.
+#7-Team Ramrod
+Oct 4, 2023
+Wed
+9:30 PM RIM - Ice (2) Optimist's
+#5-Hawks
+vs.
+#2-CnC Sports Cards
+Rink
+10:00 PM RIM - Ice (3) Lions Rink
+#10-Arctic Wolf HC
+vs.
+#3-Unit 91
+10:30 PM RIM - Ice (2) Optimist's
+#11-Indy #3
+vs.
+#13-Cambridge Canadians
+Rink
+Oct 9, 2023
+Mon
+9:30 PM RIM - Ice (2) Optimist's
+#12-Indy #4
+Rink
+10:00 PM RIM - Ice (3) Lions Rink
+#11-Indy #3
+vs.
+vs.
+#4-Floopy Pucks
+#1-Llamas with Hats
+11:00 PM RIM - Ice (1) Piller's Ice
+#3-Unit 91
+vs.
+#14-KW Hockey Club
+Haus Rink
+11:00 PM RIM - Ice (3) Lions Rink
+#2-CnC Sports Cards
+vs.
+#8-Honey Nut Chelios
+Oct 11, 2023
+Wed
+9:30 PM RIM - Ice (2) Optimist's
+#7-Team Ramrod
+vs.
+#10-Arctic Wolf HC
+Rink
+10:00 PM RIM - Ice (3) Lions Rink
+#13-Cambridge Canadians vs.
+#5-Hawks
+Oct 16,
+2023
+Oct 18,
+2023
+Oct 23,
+2023
+10:30 PM RIM - Ice (2) Optimist's
+#6-Lucidaco Lightning
+vs.
+#9-Tuff Pucks
+Rink
+Mon
+10:00 PM RIM - Ice (3) Lions Rink
+#14-KW Hockey Club
+vs.
+#12-Indy #4
+10:30 PM AMCC - Ice West
+#9-Tuff Pucks
+vs.
+#11-Indy #3
+11:00 PM RIM - Ice (1) Piller's Ice
+#4-Floopy Pucks
+vs.
+#2-CnC Sports Cards
+Haus Rink
+11:00 PM RIM - Ice (3) Lions Rink
+#10-Arctic Wolf HC
+vs.
+#6-Lucidaco Lightning
+Wed
+9:30 PM RIM - Ice (2) Optimist's
+#8-Honey Nut Chelios
+vs.
+#13-Cambridge Canadians
+Rink
+10:00 PM RIM - Ice (3) Lions Rink
+#1-Llamas with Hats
+10:30 PM RIM - Ice (2) Optimist's
+#5-Hawks
+Rink
+vs.
+vs.
+#7-Team Ramrod
+#3-Unit 91
+Mon
+10:00 PM RIM - Ice (3) Lions Rink
+#14-KW Hockey Club
+vs.
+#4-Floopy Pucks
+10:30 PM AMCC - Ice West
+#2-CnC Sports Cards
+vs.
+#12-Indy #4
+11:00 PM RIM - Ice (1) Piller's Ice
+#11-Indy #3
+vs.
+#10-Arctic Wolf HC
+Haus Rink
+Page
+2 of 2
+League Schedule By
+Sep 22, 2023
+2:51 PM
+League Schedule Name: Mon/Wed Hockey - Fall 2023 D Div Pre
+Game Date
+Day
+Time
+Game Site
+Home Team
+Away Team
+League Name
+11:00 PM RIM - Ice (3) Lions Rink
+#9-Tuff Pucks
+vs.
+#1-Llamas with Hats
+Oct 25,
+2023
+Wed
+9:30 PM RIM - Ice (2) Optimist's
+#3-Unit 91
+vs.
+#8-Honey Nut Chelios
+Rink
+10:00 PM RIM - Ice (3) Lions Rink
+#6-Lucidaco Lightning
+vs.
+#13-Cambridge Canadians
+10:30 PM RIM - Ice (2) Optimist's
+#7-Team Ramrod
+vs.
+#5-Hawks
+Rink
+Mon/Wed Hockey - Fall 2023 D Div
+Pre
+Mon/Wed Hockey - Fall 2023 D Div
+Pre
+Mon/Wed Hockey - Fall 2023 D Div
+Pre
+Mon/Wed Hockey - Fall 2023 D Div
+Pre
+RS II
+
+
+trying tabula:
+Table 1:
+         Sep 25, Mon  Unnamed: 0  ...              #11-Indy #3  Mon/Wed Hockey - Fall 2023 D Div
+0               2023         NaN  ...                      NaN                               Pre
+1                NaN         NaN  ...     #8-Honey Nut Chelios  Mon/Wed Hockey - Fall 2023 D Div
+2                NaN         NaN  ...                      NaN                               Pre
+3                NaN         NaN  ...    #6-Lucidaco Lightning  Mon/Wed Hockey - Fall 2023 D Div
+4                NaN         NaN  ...                      NaN                               Pre
+5                NaN         NaN  ...                 #5-Hawks  Mon/Wed Hockey - Fall 2023 D Div
+6                NaN         NaN  ...                      NaN                               Pre
+7        Sep 27, Wed         NaN  ...            #9-Tuff Pucks  Mon/Wed Hockey - Fall 2023 D Div
+8               2023         NaN  ...                      NaN                               Pre
+9                NaN         NaN  ...       #14-KW Hockey Club  Mon/Wed Hockey - Fall 2023 D Div
+10               NaN         NaN  ...                      NaN                               Pre
+11               NaN         NaN  ...       #10-Arctic Wolf HC  Mon/Wed Hockey - Fall 2023 D Div
+12               NaN         NaN  ...                      NaN                               Pre
+13   Oct 2, 2023 Mon         NaN  ...          #4-Floopy Pucks  Mon/Wed Hockey - Fall 2023 D Div
+14               NaN         NaN  ...                      NaN                               Pre
+15               NaN         NaN  ...    #6-Lucidaco Lightning  Mon/Wed Hockey - Fall 2023 D Div
+16               NaN         NaN  ...                      NaN                               Pre
+17               NaN         NaN  ...              #12-Indy #4  Mon/Wed Hockey - Fall 2023 D Div
+18               NaN         NaN  ...                      NaN                               Pre
+19               NaN         NaN  ...           #7-Team Ramrod  Mon/Wed Hockey - Fall 2023 D Div
+20               NaN         NaN  ...                      NaN                               Pre
+21   Oct 4, 2023 Wed         NaN  ...      #2-CnC Sports Cards  Mon/Wed Hockey - Fall 2023 D Div
+22               NaN         NaN  ...                      NaN                               Pre
+23               NaN         NaN  ...               #3-Unit 91  Mon/Wed Hockey - Fall 2023 D Div
+24               NaN         NaN  ...                      NaN                               Pre
+25               NaN         NaN  ...  #13-Cambridge Canadians  Mon/Wed Hockey - Fall 2023 D Div
+26               NaN         NaN  ...                      NaN                               Pre
+27   Oct 9, 2023 Mon         NaN  ...          #4-Floopy Pucks  Mon/Wed Hockey - Fall 2023 D Div
+28               NaN         NaN  ...                      NaN                               Pre
+29               NaN         NaN  ...      #1-Llamas with Hats  Mon/Wed Hockey - Fall 2023 D Div
+30               NaN         NaN  ...                      NaN                               Pre
+31               NaN         NaN  ...       #14-KW Hockey Club  Mon/Wed Hockey - Fall 2023 D Div
+32               NaN         NaN  ...                      NaN                               Pre
+33               NaN         NaN  ...     #8-Honey Nut Chelios  Mon/Wed Hockey - Fall 2023 D Div
+34               NaN         NaN  ...                      NaN                               Pre
+35  Oct 11, 2023 Wed         NaN  ...       #10-Arctic Wolf HC  Mon/Wed Hockey - Fall 2023 D Div
+36               NaN         NaN  ...                      NaN                               Pre
+37               NaN         NaN  ...                 #5-Hawks  Mon/Wed Hockey - Fall 2023 D Div
+38               NaN         NaN  ...                      NaN                               Pre
+39               NaN         NaN  ...            #9-Tuff Pucks  Mon/Wed Hockey - Fall 2023 D Div
+40               NaN         NaN  ...                      NaN                               Pre
+41       Oct 16, Mon         NaN  ...              #12-Indy #4  Mon/Wed Hockey - Fall 2023 D Div
+42              2023         NaN  ...                      NaN                               Pre
+43               NaN         NaN  ...              #11-Indy #3  Mon/Wed Hockey - Fall 2023 D Div
+44               NaN         NaN  ...                      NaN                               Pre
+45               NaN         NaN  ...      #2-CnC Sports Cards  Mon/Wed Hockey - Fall 2023 D Div
+46               NaN         NaN  ...                      NaN                               Pre
+47               NaN         NaN  ...    #6-Lucidaco Lightning  Mon/Wed Hockey - Fall 2023 D Div
+48               NaN         NaN  ...                      NaN                               Pre
+49       Oct 18, Wed         NaN  ...  #13-Cambridge Canadians  Mon/Wed Hockey - Fall 2023 D Div
+50              2023         NaN  ...                      NaN                               Pre
+51               NaN         NaN  ...           #7-Team Ramrod  Mon/Wed Hockey - Fall 2023 D Div
+52               NaN         NaN  ...                      NaN                               Pre
+53               NaN         NaN  ...               #3-Unit 91  Mon/Wed Hockey - Fall 2023 D Div
+54               NaN         NaN  ...                      NaN                               Pre
+55       Oct 23, Mon         NaN  ...          #4-Floopy Pucks  Mon/Wed Hockey - Fall 2023 D Div
+56              2023         NaN  ...                      NaN                               Pre
+57               NaN         NaN  ...              #12-Indy #4  Mon/Wed Hockey - Fall 2023 D Div
+58               NaN         NaN  ...                      NaN                               Pre
+59               NaN         NaN  ...       #10-Arctic Wolf HC  Mon/Wed Hockey - Fall 2023 D Div
+
+[60 rows x 8 columns]
+
+--------------------------------------------------
+
+Table 2:
+  Unnamed: 0 Unnamed: 1  11:00 PM  ...  vs.      #1-Llamas with Hats  Mon/Wed Hockey - Fall 2023 D Div
+0        NaN        NaN       NaN  ...  NaN                      NaN                               Pre
+1    Oct 25,        Wed   9:30 PM  ...  vs.     #8-Honey Nut Chelios  Mon/Wed Hockey - Fall 2023 D Div
+2       2023        NaN       NaN  ...  NaN                      NaN                               Pre
+3        NaN        NaN  10:00 PM  ...  vs.  #13-Cambridge Canadians  Mon/Wed Hockey - Fall 2023 D Div
+4        NaN        NaN       NaN  ...  NaN                      NaN                               Pre
+5        NaN        NaN  10:30 PM  ...  vs.                 #5-Hawks  Mon/Wed Hockey - Fall 2023 D Div
+
+[6 rows x 8 columns]
+
+--------------------------------------------------
