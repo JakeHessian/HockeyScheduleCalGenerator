@@ -1,0 +1,4 @@
+selenium==3.141.0
+beautifulsoup4==4.10.0
+ics==0.8
+pytz==2022.1
